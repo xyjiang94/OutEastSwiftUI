@@ -15,6 +15,12 @@
 		BC7971B32395BADD00811C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7971B12395BADD00811C8E /* LaunchScreen.storyboard */; };
 		BC7971BE2395BADD00811C8E /* OutEastSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971BD2395BADD00811C8E /* OutEastSwiftUITests.swift */; };
 		BC7971C92395BADD00811C8E /* OutEastSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971C82395BADD00811C8E /* OutEastSwiftUIUITests.swift */; };
+		BC9BB8AF23BBD07300AF7002 /* P22UndergroundBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AB23BBD07300AF7002 /* P22UndergroundBook.otf */; };
+		BC9BB8B023BBD07300AF7002 /* P22UndergroundDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AC23BBD07300AF7002 /* P22UndergroundDemi.otf */; };
+		BC9BB8B123BBD07300AF7002 /* P22UndergroundLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AD23BBD07300AF7002 /* P22UndergroundLight.otf */; };
+		BC9BB8B223BBD07300AF7002 /* P22UndergroundMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AE23BBD07300AF7002 /* P22UndergroundMedium.otf */; };
+		BC9BB8BA23C9109000AF7002 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9BB8B923C9109000AF7002 /* ColorPalette.swift */; };
+		BC9BB8BC23C916BB00AF7002 /* DomaineText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8BB23C916BB00AF7002 /* DomaineText-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		BC7971C42395BADD00811C8E /* OutEastSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutEastSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7971C82395BADD00811C8E /* OutEastSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutEastSwiftUIUITests.swift; sourceTree = "<group>"; };
 		BC7971CA2395BADD00811C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9BB8AB23BBD07300AF7002 /* P22UndergroundBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundBook.otf; sourceTree = "<group>"; };
+		BC9BB8AC23BBD07300AF7002 /* P22UndergroundDemi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundDemi.otf; sourceTree = "<group>"; };
+		BC9BB8AD23BBD07300AF7002 /* P22UndergroundLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundLight.otf; sourceTree = "<group>"; };
+		BC9BB8AE23BBD07300AF7002 /* P22UndergroundMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundMedium.otf; sourceTree = "<group>"; };
+		BC9BB8B923C9109000AF7002 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		BC9BB8BB23C916BB00AF7002 /* DomaineText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DomaineText-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,10 @@
 		BC7971A52395BADA00811C8E /* OutEastSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC9BB8B323BBD3DE00AF7002 /* Resources */,
 				BC7971A62395BADA00811C8E /* AppDelegate.swift */,
 				BC7971A82395BADA00811C8E /* SceneDelegate.swift */,
+				BC9BB8B923C9109000AF7002 /* ColorPalette.swift */,
 				BC7971AA2395BADA00811C8E /* ContentView.swift */,
 				BC7971AC2395BADD00811C8E /* Assets.xcassets */,
 				BC7971B12395BADD00811C8E /* LaunchScreen.storyboard */,
@@ -134,6 +148,26 @@
 				BC7971CA2395BADD00811C8E /* Info.plist */,
 			);
 			path = OutEastSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		BC9BB8AA23BBD07300AF7002 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC9BB8BB23C916BB00AF7002 /* DomaineText-Medium.otf */,
+				BC9BB8AB23BBD07300AF7002 /* P22UndergroundBook.otf */,
+				BC9BB8AC23BBD07300AF7002 /* P22UndergroundDemi.otf */,
+				BC9BB8AD23BBD07300AF7002 /* P22UndergroundLight.otf */,
+				BC9BB8AE23BBD07300AF7002 /* P22UndergroundMedium.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		BC9BB8B323BBD3DE00AF7002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC9BB8AA23BBD07300AF7002 /* fonts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7971B32395BADD00811C8E /* LaunchScreen.storyboard in Resources */,
+				BC9BB8B223BBD07300AF7002 /* P22UndergroundMedium.otf in Resources */,
+				BC9BB8AF23BBD07300AF7002 /* P22UndergroundBook.otf in Resources */,
+				BC9BB8B023BBD07300AF7002 /* P22UndergroundDemi.otf in Resources */,
+				BC9BB8B123BBD07300AF7002 /* P22UndergroundLight.otf in Resources */,
+				BC9BB8BC23C916BB00AF7002 /* DomaineText-Medium.otf in Resources */,
 				BC7971B02395BADD00811C8E /* Preview Assets.xcassets in Resources */,
 				BC7971AD2395BADD00811C8E /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +309,7 @@
 				BC7971A72395BADA00811C8E /* AppDelegate.swift in Sources */,
 				BC7971A92395BADA00811C8E /* SceneDelegate.swift in Sources */,
 				BC7971AB2395BADA00811C8E /* ContentView.swift in Sources */,
+				BC9BB8BA23C9109000AF7002 /* ColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -56,5 +56,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DomaineText-Medium.otf</string>
+		<string>P22UndergroundLight.otf</string>
+		<string>P22UndergroundBook.otf</string>
+		<string>P22UndergroundMedium.otf</string>
+		<string>P22UndergroundDemi.otf</string>
+	</array>
 </dict>
 </plist>
