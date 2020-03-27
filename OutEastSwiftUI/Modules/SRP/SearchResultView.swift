@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+
+
     init() {
         // To remove only extra separators below the list:
         UITableView.appearance().tableFooterView = UIView()
@@ -20,15 +23,26 @@ struct ContentView: View {
 
     var body: some View {
         List {
-            ListingCard().listRowInsets(EdgeInsets()).listRowBackground(ColorPalette.cloudGray)
+            ListingCard(model: models[0]).listRowInsets(EdgeInsets()).listRowBackground(ColorPalette.cloudGray)
 
-            ListingCard().listRowInsets(EdgeInsets()).listRowBackground(ColorPalette.cloudGray)
-            ListingCard().listRowInsets(EdgeInsets()).listRowBackground(ColorPalette.cloudGray)
+
         }
         .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
         .background(ColorPalette.cloudGray)
-//        .edgesIgnoringSafeArea(.bottom)
+        .edgesIgnoringSafeArea(.bottom)
     }
+
+    private let models: [ListingCard.ListingCardModel] = [
+        ListingCard.ListingCardModel(imageURLs: [URL(string: "https://uploaded-images.outeast.com/uploads/image/file/1768032/Jeff_20altered_20main.jpg")!],
+                                     townName: "East Hampton",
+                                     address: "26 Dune Ln, East Hampton",
+                                     price: "$3,895,000",
+                                     rentalPeriod: "(June/July)",
+                                     details: [(data: "3", unit: "Beds"),
+                                               (data: "3", unit: "Baths"),
+                                               (data: "--", unit: "Acres"),
+                                               (data: "2K", unit: "Sq. Ft.")],
+                                     isSaved: true)]
 }
 
 

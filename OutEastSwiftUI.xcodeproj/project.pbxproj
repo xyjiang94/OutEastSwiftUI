@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BC067BC723D25AE800AA0A14 /* ListingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC067BC623D25AE800AA0A14 /* ListingCard.swift */; };
+		BC61DE86240063B20046A4E5 /* OpenHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DE85240063B20046A4E5 /* OpenHouse.swift */; };
+		BC61DE88240064560046A4E5 /* RentalPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DE87240064560046A4E5 /* RentalPeriod.swift */; };
+		BC61DE8B240072AE0046A4E5 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DE8A240072AE0046A4E5 /* URLImage.swift */; };
 		BC7971A72395BADA00811C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971A62395BADA00811C8E /* AppDelegate.swift */; };
 		BC7971A92395BADA00811C8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971A82395BADA00811C8E /* SceneDelegate.swift */; };
 		BC7971AB2395BADA00811C8E /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971AA2395BADA00811C8E /* SearchResultView.swift */; };
@@ -16,6 +19,10 @@
 		BC7971B32395BADD00811C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7971B12395BADD00811C8E /* LaunchScreen.storyboard */; };
 		BC7971BE2395BADD00811C8E /* OutEastSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971BD2395BADD00811C8E /* OutEastSwiftUITests.swift */; };
 		BC7971C92395BADD00811C8E /* OutEastSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7971C82395BADD00811C8E /* OutEastSwiftUIUITests.swift */; };
+		BC945D3823F7483E004EA283 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC945D3723F7483E004EA283 /* SearchResults.swift */; };
+		BC945D3B23F7485D004EA283 /* ListingPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC945D3923F7485D004EA283 /* ListingPrice.swift */; };
+		BC945D3C23F7485D004EA283 /* ListingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC945D3A23F7485D004EA283 /* ListingContext.swift */; };
+		BC945D3E23F74874004EA283 /* SearchResultsListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC945D3D23F74874004EA283 /* SearchResultsListing.swift */; };
 		BC9BB8AF23BBD07300AF7002 /* P22UndergroundBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AB23BBD07300AF7002 /* P22UndergroundBook.otf */; };
 		BC9BB8B023BBD07300AF7002 /* P22UndergroundDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AC23BBD07300AF7002 /* P22UndergroundDemi.otf */; };
 		BC9BB8B123BBD07300AF7002 /* P22UndergroundLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB8AD23BBD07300AF7002 /* P22UndergroundLight.otf */; };
@@ -43,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		BC067BC623D25AE800AA0A14 /* ListingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCard.swift; sourceTree = "<group>"; };
+		BC61DE85240063B20046A4E5 /* OpenHouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenHouse.swift; sourceTree = "<group>"; };
+		BC61DE87240064560046A4E5 /* RentalPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentalPeriod.swift; sourceTree = "<group>"; };
+		BC61DE8A240072AE0046A4E5 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		BC7971A32395BADA00811C8E /* OutEastSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutEastSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7971A62395BADA00811C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7971A82395BADA00811C8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +67,10 @@
 		BC7971C42395BADD00811C8E /* OutEastSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutEastSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7971C82395BADD00811C8E /* OutEastSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutEastSwiftUIUITests.swift; sourceTree = "<group>"; };
 		BC7971CA2395BADD00811C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC945D3723F7483E004EA283 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		BC945D3923F7485D004EA283 /* ListingPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingPrice.swift; sourceTree = "<group>"; };
+		BC945D3A23F7485D004EA283 /* ListingContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingContext.swift; sourceTree = "<group>"; };
+		BC945D3D23F74874004EA283 /* SearchResultsListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsListing.swift; sourceTree = "<group>"; };
 		BC9BB8AB23BBD07300AF7002 /* P22UndergroundBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundBook.otf; sourceTree = "<group>"; };
 		BC9BB8AC23BBD07300AF7002 /* P22UndergroundDemi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundDemi.otf; sourceTree = "<group>"; };
 		BC9BB8AD23BBD07300AF7002 /* P22UndergroundLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = P22UndergroundLight.otf; sourceTree = "<group>"; };
@@ -107,6 +121,14 @@
 			path = SRP;
 			sourceTree = "<group>";
 		};
+		BC61DE89240072970046A4E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC61DE8A240072AE0046A4E5 /* URLImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		BC79719A2395BADA00811C8E = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +152,8 @@
 		BC7971A52395BADA00811C8E /* OutEastSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC61DE89240072970046A4E5 /* Util */,
+				BC945D3623F74816004EA283 /* Entities */,
 				BC067BC423D25ABE00AA0A14 /* Modules */,
 				BC9BB8B323BBD3DE00AF7002 /* Resources */,
 				BC7971A62395BADA00811C8E /* AppDelegate.swift */,
@@ -167,6 +191,19 @@
 				BC7971CA2395BADD00811C8E /* Info.plist */,
 			);
 			path = OutEastSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		BC945D3623F74816004EA283 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BC945D3D23F74874004EA283 /* SearchResultsListing.swift */,
+				BC61DE85240063B20046A4E5 /* OpenHouse.swift */,
+				BC945D3A23F7485D004EA283 /* ListingContext.swift */,
+				BC945D3923F7485D004EA283 /* ListingPrice.swift */,
+				BC945D3723F7483E004EA283 /* SearchResults.swift */,
+				BC61DE87240064560046A4E5 /* RentalPeriod.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		BC9BB8AA23BBD07300AF7002 /* fonts */ = {
@@ -325,10 +362,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC945D3E23F74874004EA283 /* SearchResultsListing.swift in Sources */,
 				BC7971A72395BADA00811C8E /* AppDelegate.swift in Sources */,
+				BC945D3B23F7485D004EA283 /* ListingPrice.swift in Sources */,
+				BC61DE88240064560046A4E5 /* RentalPeriod.swift in Sources */,
 				BC7971A92395BADA00811C8E /* SceneDelegate.swift in Sources */,
+				BC61DE86240063B20046A4E5 /* OpenHouse.swift in Sources */,
 				BC7971AB2395BADA00811C8E /* SearchResultView.swift in Sources */,
+				BC61DE8B240072AE0046A4E5 /* URLImage.swift in Sources */,
 				BC067BC723D25AE800AA0A14 /* ListingCard.swift in Sources */,
+				BC945D3823F7483E004EA283 /* SearchResults.swift in Sources */,
+				BC945D3C23F7485D004EA283 /* ListingContext.swift in Sources */,
 				BC9BB8BA23C9109000AF7002 /* ColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
